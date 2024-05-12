@@ -1,0 +1,26 @@
+.banner{
+    padding: 0 43px ;
+    background-color: #FAFAFA;
+    display: flex;
+    gap: 90px;
+    align-items: center;
+    height: 600px;
+}
+.banner-left{
+    h1{
+        width: 559px;
+        font-size: 70px;
+        margin: 8px 0;
+        b{
+            color:#46A358 ;
+        }
+    }
+    p{
+        max-width: 567px;
+        color: #727272;
+    }
+}
+.ban1{
+    position: relative;
+    bottom: 178px;
+}
