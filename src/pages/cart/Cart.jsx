@@ -63,8 +63,14 @@ let totalPrice = cart?.reduce((sum , item) => sum + (item.price * item.quantity)
              </div>
              <div className="pdf">
               <h3>Total</h3>
-              <h2>${totalPrice?.brm() + "." + 16.00}.00</h2>
+              <h2>${(totalPrice + 16)?.brm() }.00</h2>
              </div>
+              <div className="btna">
+                <a href="/login">
+                <button>Proceed To Checkout</button>
+                </a>
+                <a href="/">Continue Shopping</a>
+              </div>
           </div>
       </div>
         

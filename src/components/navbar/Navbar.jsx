@@ -36,7 +36,9 @@ const Navbar = () => {
         <NavLink to={"/wishlist"}>
           <CiHeart/>
         </NavLink>
+        <NavLink to={"/login"}>
         <button><IoExitOutline />Login</button>
+        </NavLink>
         </div>
 
     </div>

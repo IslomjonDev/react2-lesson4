@@ -1,11 +1,13 @@
 import React from 'react'
 import "./Empty.css"
-
+import not from '../../assets/download.png'
 const Empty = ({text}) => {
   return (
     <div className='empty'>
-        <h2>{text}</h2>
-        <p>Lorem ipsum dolor sit.</p>
+      <div className="container">
+
+         <img src={not} alt="" />
+      </div>
     </div>
   )
 }

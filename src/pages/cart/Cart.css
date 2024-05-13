@@ -11,6 +11,8 @@
     }
     .el__products{
         display: flex;
+        background-color: #FAFAFA;
+        padding: 10px 4px;
         align-items: center;
         gap: 14px;
         p{
@@ -91,5 +93,22 @@
     h2{
         color: #46A358;
         font-size: 22px;
+    }
+}
+
+.btna{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    button{
+        padding: 12px 90px;
+        background-color: #46A358;
+        border: 1px solid #46A358;
+        color: #fff;
+        border-radius: 6px;
+    }
+    a{
+        text-align: center;
+        color: #46A358;
     }
 }

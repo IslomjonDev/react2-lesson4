@@ -10,8 +10,10 @@ const Wishlist = () => {
 
   return (
     <div>
-      <Empty text="Wishlist"/>
-      <Products data={ wishlist }/>
+      {
+        wishlist.length ?       <Products data={ wishlist }/> :
+        <Empty text="Wishlist"/>
+      }
     </div>
   )
 }

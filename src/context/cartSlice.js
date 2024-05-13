@@ -12,6 +12,7 @@ const cartSlice = createSlice({
       if (index < 0) {
         state.value = [...state.value, { ...action.payload, quantity: 1 }];
         toast.success("Add To Cart");
+        
       }
       localStorage.setItem("carts", JSON.stringify(state.value))
     },

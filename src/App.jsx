@@ -4,6 +4,7 @@ import Home from './pages/home/Home'
 import Wishlist from './pages/wishlist/Wishlist'
 import Cart from './pages/cart/Cart'
 import Navbar from './components/navbar/Navbar'
+import Login from './pages/login/Login'
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
         <Route path='/' element={<Home/>}/>
         <Route path='/wishlist' element={<Wishlist/>}/>
         <Route path='/cart' element={<Cart/>}/>
+        <Route path='/login' element={<Login/>}/>
+
       </Routes>
     </>
   )
